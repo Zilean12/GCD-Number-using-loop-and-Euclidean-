@@ -1,0 +1,20 @@
+pseudocode for GCD Euclidean
+
+Method - 1 
+
+function gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
+
+or else 
+
+Method - 2
+
+function gcd(A,B):
+    if (A < B):
+        return gcd(B,A)
+    if (A = 0):
+        return B
+    return gcd(B, A%B)
